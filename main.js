@@ -1,0 +1,10 @@
+import { Header } from "./Header/header";
+import { Home } from "./Home/home";
+import { Company } from "./Company/company";
+import { Experience } from "./Experience/experience";
+import { Services } from "./Services/services";
+import { Skills } from "./Skills/skill";
+import { Intrested } from "./Intrested/intrested";
+import { Project } from "./Project/project";
+import { Testimonial } from "./Testimonial/testimonial";
+import { Footer } from "./Footer/footer";

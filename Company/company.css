@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.company-main-Container{
+    height: 110px;
+    background-color: #373737;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.company-main-Container img{ 
+    width:8%;
+}
+
+@media screen and (max-width: 400px){
+    .company-main-Container{ 
+        background-color: #373737;
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        justify-content: space-between;
+        width: 100%;
+    }  
+    .company-main-Container img{
+        width: 60vh;
+        margin-left: 20%;
+    }  
+}

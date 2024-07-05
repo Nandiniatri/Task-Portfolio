@@ -9,19 +9,15 @@ export class Experience{
             <img src="https://pxdraft.com/themeforest/krinky/assets/img/aboutme-banner.png"/>
         </div>
         <div class="experience-Main-Div2">
-            <h1>I'm a Freelancer Front-end Developer with over 3 years of experience.</h1>
-            <p>I'm a Freelancer Front-end Developer with over 3 years of experience. I'm from San Francisco. I code and create web elements for amazing people around the world. I like work with new people. New people new Experiences.</p>
+            <h1>I'm a Front-end Developer.</h1>
+            <p>I'm a Front-end Developer . I'm from Noida. I code and create web elements for amazing people around the world. I like work with new people. New people new Experiences.</p>
 
             <div class="experience-Main-Div2-InnerDiv">
                 <div class="div2-inner1">
-                    <h1>285+</h1>
-                    <p>Project Completed</p>
-                    <button>CONTACT ME</button>
+                    <a href="#contactid"><button>CONTACT ME</button></a>
                 </div>
                 <div class="div2-inner2">
-                    <h1>190+</h1>
-                    <p>Happy Clients</p>
-                    <button>PORTFOLIO</button>
+                    <a href="./File/Nandini's Resume.pdf" download target="_blank"><button>DOWNLOAD CV</button></a>
                 </div>
             </div>
         </div>

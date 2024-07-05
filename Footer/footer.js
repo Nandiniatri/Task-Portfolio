@@ -42,7 +42,7 @@ export class Footer{
                 </div>
                 <div class="phoneNO">
                     <h5>PHONE</h5>
-                    <p>+01 123 654 8096</p>
+                    <p>+91 8791711016</p>
                 </div>
               </div>
 
@@ -52,39 +52,24 @@ export class Footer{
               </div>
               <div class="phoneNO">
                   <h5>MAIL</h5>
-                  <p>info@domainname.com</p>
+                  <p>atrinandini8@gmail.com</p>
               </div>
             </div>
 
-            <div class="contactinfo">
-            <div class ="phoneinfo"  id="phoneinfo3-fa">
-                   <icon class="fa fa-map-marker"/>
-            </div>
-            <div class="phoneNO">
-                <h5>VISIT MY STUDIO</h5>
-                <p>Warnwe Park Streetperrine,
-                FL 33157 New York City</p>
-            </div>
-          </div>
     </div>
 </div>
 
         <div class="socila-media">
             <div class="left-media">
-                <li><icon class="fa fa-facebook"/><li>
-                <li><icon class="fa fa-twitter"/><li>
-                <li><icon class="fa fa-instagram"/><li>
-                <li><icon class="fa fa-linkedin"/><li>
-                <li><icon class="fa fa-pinterest"/></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/nandini-atri-494881232/"><icon class="fa fa-linkedin"/></a><li>
+                <li><a target="_blank" href="https://github.com/Nandiniatri"><icon class="fa fa-github"/></a><li>
+                <li><a target="_blank" href="https://www.instagram.com/nandiniatri/?igsh=MWhjeWRhajUxMDNhdA%3D%3D"><icon class="fa fa-instagram"/></a><li>
+                
             </div>
             <div class="right-media">
                 © 2022 copyright all right reserved
             </div>
-        </div>
-
-`
-
-
+        </div>`
 
         const create = document.createElement('div');
         create.innerHTML = footerTpl;
@@ -96,5 +81,15 @@ export class Footer{
 const footer =  new Footer();
 footer.renderFooterData();
 
+
+{/* <div class="contactinfo">
+<div class ="phoneinfo"  id="phoneinfo3-fa">
+       <icon class="fa fa-map-marker"/>
+</div>
+<div class="phoneNO">
+    <h5>VISIT MY LINKEDIN</h5>
+    <a target="_blank" href="linkedin.com/in/nandini-atri-494881232/"><p>linkedin</p></a>
+</div>
+</div> */}
 
 

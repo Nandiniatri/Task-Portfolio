@@ -159,6 +159,9 @@ textarea{
     justify-content: space-between;
     margin-left: 26px;
 }
+.left-media a{
+    color: white;
+}
 .right-media{
     margin-right: 30px;
 }

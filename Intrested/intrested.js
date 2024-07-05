@@ -6,7 +6,7 @@ export class Intrested{
     renderIntrestedData(){
         const intrestedTpl = `<div class="intrested-Main-Container">
         <h1>Intrested working with me?</h1>
-        <button>CONTACT NOW</button>
+        <a href="#contactid"><button>CONTACT NOW</button></a>
         </div>`
 
 

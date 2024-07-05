@@ -2,9 +2,20 @@
     margin: 0px;
     padding: 0px; 
     box-sizing: border-box;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
 }
 .header-Menu-Icon{
     display: none;
+}
+.main-header-div1 a{
+  color: #373737;
+  /* font-weight: bold; */
+  text-decoration: none;
+}
+.main-header-div1 a h1{
+  font-weight: bold;
+  font-size: 40px;
 }
 .main-header-Container{
     background-color: white;
@@ -50,6 +61,7 @@
     font-weight: 500;
     letter-spacing: 2px;
     transition: ease all 0.35s;
+    cursor: pointer;
 }
 .main-header-div3 button:hover{
     background-color: #373737;

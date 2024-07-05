@@ -6,13 +6,13 @@ export class Home{
     }
 
     renderHomeData(){
-        const homeTpl = `<div class="home-main-container">
+        const homeTpl = `<div class="home-main-container" id="home">
         <div class="home-main-div1">
-            <p>👋, MY NAME IS KRINKY</p>
-            <h1>I'm a Developer |</h1>
-            <span>Based in Los Angeles, California.</span>
+            <p>👋, MY NAME IS NANDINI ATRI</p>
+            <h1>I'm a Front-end Developer |</h1>
+            <span>Based in Noida Uttar Pradesh.</span>
             </br> 
-            <div class="home-btn-div"><button>LET'S START</button></div>
+            <div class="home-btn-div"><a href="./File/Nandini's Resume.pdf" download target="_blank"><button>LET'S START</button></a></div>
         </div>
         <div class="home-main-div2">
             <img src="https://pxdraft.com/themeforest/krinky/assets/img/home-banner.png"/>

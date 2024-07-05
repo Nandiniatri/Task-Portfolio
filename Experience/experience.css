@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 .experience-Main-Container{
-    /* border: solid; */
+    /* border: solid;  */
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
@@ -19,7 +19,7 @@
     
 }
 .experience-Main-Div1 img{
-    /* border: solid; */  
+    /* border: solid;   */
 }
 .experience-Main-Div2 {
     /* border: solid red; */
@@ -31,10 +31,13 @@
     color: #373737;
     margin: 0 0 25px;
     line-height: 50px;
-    font-size: 40px;
+    font-size: 42px;
+}
+.experience-Main-Div2 h1:hover{
+    text-decoration: underline #FF651C;
 }
 .experience-Main-Div2 p{
-    font-size: 16px;
+    font-size: 17px;
     margin: 0px 0px 16px;
     color: #555555;
     line-height: 25px;
@@ -43,7 +46,8 @@
 .experience-Main-Div2-InnerDiv{
     /* border: solid; */
     display: flex;
-    gap: 20px;
+    gap: 25px;
+    margin-top: 50px;
 }
 .experience-Main-Div2-InnerDiv h1{
     /* border: solid; */
@@ -59,7 +63,7 @@
 .experience-Main-Div2-InnerDiv .div2-inner1 button{
     padding: 8px 20px;
     border: 2px solid transparent;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.5; 
     text-decoration: none;
     font-weight: 500;
@@ -71,6 +75,7 @@
     border-color: #FF651C;
     color: #fff;
     box-shadow: 6px 6px 0 -1px #373737;
+    cursor: pointer;
 }
 .experience-Main-Div2-InnerDiv .div2-inner1 button:hover{
     background-color: #373737;
@@ -84,7 +89,7 @@
     box-shadow: 5px 5px 0 -2px #FF651C;
     padding: 8px 20px;
     border: 2px solid transparent;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.5;
     text-decoration: none;
     font-weight: 500;
@@ -92,6 +97,7 @@
     text-transform: uppercase;
     transition: ease all 0.35s;
     display: inline-block;
+    cursor: pointer;
 }
 .experience-Main-Div2-InnerDiv .div2-inner2 button:hover{
     background-color: #FF651C;

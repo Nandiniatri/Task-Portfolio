@@ -12,19 +12,23 @@
 .services-Main-Container-h1{
     /* border: solid; */
     text-align: center;
-    font-size: 25px;
+    font-size: 23px;
     color: #373737;
     font-weight: 600;
     letter-spacing: 4px;
     text-transform: uppercase;
+    margin-top: 30px;
 }
 .services-Main1-Container{
-    /* border: solid; */
+    /* border: solid red; */
     display: grid;
     grid-template-columns: auto auto;
     margin-top: 30px;
     gap: 30px;
     padding: 40px;
+}
+.services-Main1-Container #one{
+    /* border: solid blue; */
 }
 .services-Main1-Container-innerDiv1{
     border: solid ;
@@ -35,7 +39,12 @@
     transition: ease all 0.35s;
     background-color: #9BD3D0;
     gap: 20px;
+    /* opacity: 0;
+    transition: opacity 0.5s ease-in-out; */
 }
+/* .services-Main1-Container-innerDiv.visible {
+    opacity: 1;
+} */
 .services-Main1-Container-innerDiv1 h5{
     font-size: 24px;
     color: #373737;
@@ -205,3 +214,4 @@
         width: 250px;
     }
 } 
+

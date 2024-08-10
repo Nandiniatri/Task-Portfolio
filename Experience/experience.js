@@ -10,7 +10,7 @@ export class Experience{
         </div>
         <div class="experience-Main-Div2">
             <h1>I'm a Front-end Developer.</h1>
-            <p>I'm a Front-end Developer . I'm from Noida. I code and create web elements for amazing people around the world. I like work with new people. New people new Experiences.</p>
+            <p>My name is Nandini Atri, and I am a front-end developer. I am a fresher and am currently looking for a job in front-end technology. I have a good understanding of HTML, CSS, JavaScript, and React.js, and I have worked on a few projects.</p>
 
             <div class="experience-Main-Div2-InnerDiv">
                 <div class="div2-inner1">

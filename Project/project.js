@@ -10,10 +10,30 @@ export class Project{
             <h1>LATEST PROJECTS</h1>
             
             <div class="project-main-div">
+
+               <div class="project-grid"> 
+                <div class="projectinfo">
+                    <img src="Screenshot (1544).png"/>
+                </div>
+                
+             
+            <div class="projectinfo">
+                    <h4>Stanza Living Clone</h4> 
+                    <p>Stanza Living is a coliving startup that offers fully-furnished rental accommodations for students and working professionals in more than 20 cities in India.</p>
+                <div class="project-All-Btns-Div">
+                    <a target="_blank" href="https://react-doccure-nandiniatri.netlify.app/"><button>VIEW PROJECT</button></a>
+                    <a target="_blank" href="https://github.com/Nandiniatri/React-Doccure-Website"><button>VIEW IN GITHUB</button></a>
+                </div>
+            </div>
+        </div>
+
+
+
             <div class="project-grid"> 
                 <div class="projectinfo">
-                    <img src="https://doccure.dreamstechnologies.com/assets/img/inner-pages/ltr-img.jpg"/>
+                    <img src="Screenshot (1024).png"/>
                 </div>
+                
              
             <div class="projectinfo">
                     <h4>Doccure Clone</h4> 
@@ -59,21 +79,7 @@ export class Project{
     </div>
 
 
-        <div class="project-grid"> 
-            <div class="projectinfo">
-                <img src="Screenshot (1026).png"/>
-            </div>
-
-            <div class="projectinfo">
-                <h4>Flipkart Clone</h4>
-                <p>
-                Flipkart is an Indian e-commerce company that connects buyers and sellers online.In this you can buy categories, including electronics, fashion, home goods, groceries, and more.</p>
-                <div class="project-All-Btns-Div">
-                    <a target="_blank" href="https://flipkart-clone-nandiniatri.netlify.app/"><button>VIEW PROJECT</button></a>
-                    <a target="_blank" href="https://github.com/Nandiniatri/React--flipkart"><button>VIEW IN GITHUB</button></a>
-                </div>
-            </div>
-        </div>
+      
 
  </div>
     
